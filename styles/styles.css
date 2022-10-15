@@ -1,0 +1,86 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.25em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  text-align: center;
+}
+.active {
+  background-color: orangered;
+}
+.content {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 20px;
+}
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.footer {
+  background-color: rgb(87, 80, 80);
+  font-size: 0.75em;
+  letter-spacing: 0.15em;
+}
+.main-content {
+  padding-top: 55px;
+  background-image: url("../images/background.png");
+  background-attachment: fixed;
+}
+.footer p {
+  display: inline-block;
+}
+.order img {
+  float: left;
+  width: 15em;
+  height: 10em;
+  box-sizing: border-box;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.order h2 {
+  font-weight: bolder;
+  padding-bottom: 0%;
+  width: 10em;
+}
+div .order {
+  display: inline-block;
+  padding: 10px;
+}
+.btn-warning {
+  color: white;
+}
+.address {
+  padding-left: 70px;
+  margin: auto;
+}
+.btn-lg {
+  padding: 0.75em;
+  font-size: 1.5em;
+  border-radius: 1em;
+}
